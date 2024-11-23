@@ -7,7 +7,7 @@ Welcome to this unique technical assessment! You'll be building something intere
 1. **Preparation**
    - Make sure you have a development environment ready
    - Have a GitHub account
-   - Have a Vercel account (or equivalent deployment platform)
+   - Have a Vercel account free tier (or equivalent deployment platform)
    - Block out adequate time - you'll need to complete this in one session
 
 2. **Starting the Assessment**
@@ -26,7 +26,7 @@ Welcome to this unique technical assessment! You'll be building something intere
    - Deployment experience
 
 4. **Submission**
-   - You'll submit via email to [YOUR_EMAIL]
+   - You'll submit via email to pankajv@exargen.com
    - Include specific screenshots (details in decrypted instructions)
    - Include deployment URL
    - Include your repository URL
