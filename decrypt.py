@@ -7,7 +7,7 @@ def generate_key():
     """Generate a key based on git commit hash"""
     try:
         with os.popen('git rev-parse HEAD') as pipe:
-            commit_hash = pipe.read().strip()
+            commit_hash = "9381bfbf9ee0b7c8ed87a46cf064355d66d0331a"
         
         if not commit_hash:
             return None
