@@ -60,7 +60,7 @@ useEffect(() => {
     const response = await completeTimer(userName, startTime, stopTime); // Call backend API to save data
     if (response) {
       setIsTimerRunning(false); // Stop the timer
-      setCurrentTime(response.totalElapsedTime)
+      setCurrentTime(response.timer.totalElapsedTime)
       console.log('Timer completed!', response); // Optionally log the completed data or handle it
     }
   };

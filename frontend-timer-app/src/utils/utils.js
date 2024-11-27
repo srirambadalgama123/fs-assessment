@@ -4,6 +4,7 @@
  * @returns {string} - The formatted string in "HH:mm:ss" format.
  */
 export function formatTime(totalSeconds) {
+  console.log("totalSeconds: ", totalSeconds)
     if (typeof totalSeconds !== 'number' || totalSeconds < 0) {
       throw new Error('Invalid input: totalSeconds must be a non-negative number.');
     }

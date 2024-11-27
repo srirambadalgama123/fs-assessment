@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Define your backend server URL (adjust if running locally or hosted)
-const API_URL = 'http://localhost:5000'; // Change to your backend URL if deployed
+// Deployed backend on render.com and updated URL
+const API_URL = 'https://fs-assessment-wbe7.onrender.com'; // Change to your backend URL if deployed
 
 // Function to get the start time based on the forked repo
 export const getStartTime = async (userName) => {
